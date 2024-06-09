@@ -1,0 +1,80 @@
+/* Global */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: #0f2b34;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  background-image: linear-gradient(to right, #0f2b34 30%, #6e94a9 75%);
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+header h1 {
+  color: #ffffff;
+  padding: 30px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  background-image: linear-gradient(to right, #0f2b34 30%, #6e94a9 75%);
+  border-top: 1px solid white;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #000000;
+  padding: 40px;
+}
